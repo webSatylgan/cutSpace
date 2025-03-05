@@ -3,9 +3,13 @@
 @import "vars.css";
 
 /* styles ----------------- */
-
 /* blocks */
-body {}
+html {
+    font-size: 16px;
+}
+body {
+    font-family: var(--font-family);
+}
 
 nav {
     display: flex;
@@ -15,44 +19,71 @@ nav {
 }
 
 /* tags styles -------------- */
-h1, h2 {
-    font-family: var(--font-main);
-    font-weight: 400;
-    font-size: 80px;
-    color: var(--primary);
+h1, h2, h3 {
+    font-weight: 700;
+    color: var(--black);
 }
 
 h1 {
-    color: var(--secondary);
+    font-size: 3.375rem;
+    line-height: 4.9rem;
+}
+
+h2 {
+    font-size: 2.625rem;
+    line-height: 3.885rem;
+}
+
+h3 {
+    font-size: 1.75rem;
 }
 
 p {
-    font-family: var(--font-secondary);
+    font-size: 1rem;
     font-weight: 400;
-    font-size: 28px;
-    line-height: 157%;
-    color: var(--secondary);
+    line-height: 1.69rem;
+    color: var(--black);
 }
 
-a, button {
-    font-family: var(--font-secondary);
+a {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 180%;
-    color: var(--secondary);
+    font-size: 1rem;
+    color: var(--black);
+
     transition: .2s;
 }
 
-a {}
+a:hover {
+    color: var(--orange);
+}
+
+button {
+    padding: 18px 40px;
+    font-weight: 700;
+    font-size: 16px;
+
+    border-radius: 29px;
+
+    transition: .2s;
+}
+
+button.orange, button.white:hover {
+    color: #fff;
+    background: var(--orange);
+}
+
+button.white, button.orange:hover {
+    color: var(--orange);
+    background: #fff;
+}
 
 /* container classes ----------- */
 .container {
-    max-width: 1760px;
+    max-width: 1150px;
     width: 100%;
 
     padding: 0 20px;
     margin: 0 auto;
-    box-sizing: border-box;
 }
 
 .flex {

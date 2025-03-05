@@ -1,14 +1,11 @@
 /* _variables.css */
 :root {
     /* colors */
-    --primary: #007bff;
-    --secondary: #6c757d;
-    --background: #f8f9fa;
-    --text-color: #333;
+    --black: #323232;
+    --orange: #f78434;
+    --cyan: #58bebf;
 
     /* fonts */
-    --font-main: "Inter", sans-serif;
-    --font-secondary: "Playfair Display", sans-serif;
-    --font-size-base: 16px;
+    --font-family: "Poppins", sans-serif;
 
 }

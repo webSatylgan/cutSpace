@@ -6,9 +6,10 @@ import FooterComponent from "./components/footerComponent.vue";
 </script>
 
 <template>
-    <HeaderComponent />
-    <IntroComponent />
-
+    <div class="container">
+        <HeaderComponent />
+        <IntroComponent />
+    </div>
 
     <footer-component />
 </template>

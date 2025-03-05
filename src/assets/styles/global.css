@@ -1,0 +1,63 @@
+/* imports ---------------- */
+@import "reset.css";
+@import "vars.css";
+
+/* styles ----------------- */
+
+/* blocks */
+body {}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* tags styles -------------- */
+h1, h2 {
+    font-family: var(--font-main);
+    font-weight: 400;
+    font-size: 80px;
+    color: var(--primary);
+}
+
+h1 {
+    color: var(--secondary);
+}
+
+p {
+    font-family: var(--font-secondary);
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 157%;
+    color: var(--secondary);
+}
+
+a, button {
+    font-family: var(--font-secondary);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    color: var(--secondary);
+    transition: .2s;
+}
+
+a {}
+
+/* container classes ----------- */
+.container {
+    max-width: 1760px;
+    width: 100%;
+
+    padding: 0 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}

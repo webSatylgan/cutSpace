@@ -5,6 +5,7 @@ import IntroComponent from "./components/introComponent.vue";
 import Companies from "@components/companies.vue";
 
 import FooterComponent from "./components/footerComponent.vue";
+import WeComponent from "@components/weComponent.vue";
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import FooterComponent from "./components/footerComponent.vue";
         <IntroComponent />
         <Companies />
     </div>
+    <WeComponent />
 
     <footer-component />
 </template>

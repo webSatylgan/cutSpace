@@ -77,6 +77,14 @@ button.white, button.orange:hover {
     background: #fff;
 }
 
+input {
+    padding: 20px 28px;
+
+    background: #fff;
+
+    border-radius: 29px;
+}
+
 /* container classes ----------- */
 .container {
     max-width: 1150px;

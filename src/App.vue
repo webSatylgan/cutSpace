@@ -8,6 +8,7 @@ import FooterComponent from "./components/footerComponent.vue";
 import WeComponent from "@components/weComponent.vue";
 import StartComponent from "@components/startComponent.vue";
 import ServeComponent from "@components/serveComponent.vue";
+import WhyComponent from "@components/whyComponent.vue";
 </script>
 
 <template>
@@ -24,6 +25,7 @@ import ServeComponent from "@components/serveComponent.vue";
     </div>
 
     <ServeComponent />
+    <WhyComponent />
 
     <footer-component />
 </template>

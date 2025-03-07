@@ -31,7 +31,7 @@
     .we {
         width: 100%;
         margin-top: 160px;
-        padding-bottom: 160px;
+        padding: 60px 0;
 
         position: relative;
 

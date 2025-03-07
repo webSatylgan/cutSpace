@@ -2,19 +2,25 @@
 // imports components -------
 import HeaderComponent from "./components/headerComponent.vue";
 import IntroComponent from "./components/introComponent.vue";
-import Companies from "@components/companies.vue";
+import CompaniesComponent from "@components/companiesComponent.vue";
 
 import FooterComponent from "./components/footerComponent.vue";
 import WeComponent from "@components/weComponent.vue";
+import StartComponent from "@components/startComponent.vue";
 </script>
 
 <template>
     <div class="container">
         <HeaderComponent />
         <IntroComponent />
-        <Companies />
+        <CompaniesComponent />
     </div>
+
     <WeComponent />
+
+    <div class="container">
+        <StartComponent />
+    </div>
 
     <footer-component />
 </template>

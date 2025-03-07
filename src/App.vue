@@ -7,6 +7,7 @@ import CompaniesComponent from "@components/companiesComponent.vue";
 import FooterComponent from "./components/footerComponent.vue";
 import WeComponent from "@components/weComponent.vue";
 import StartComponent from "@components/startComponent.vue";
+import ServeComponent from "@components/serveComponent.vue";
 </script>
 
 <template>
@@ -21,6 +22,8 @@ import StartComponent from "@components/startComponent.vue";
     <div class="container">
         <StartComponent />
     </div>
+
+    <ServeComponent />
 
     <footer-component />
 </template>

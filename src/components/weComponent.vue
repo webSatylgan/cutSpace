@@ -25,6 +25,7 @@
             </div>
         </div>
     </div>
+    <div class="we-bg"></div>
 </template>
 
 <style scoped>

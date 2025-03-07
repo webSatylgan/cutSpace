@@ -10,6 +10,7 @@ import StartComponent from "@components/startComponent.vue";
 import ServeComponent from "@components/serveComponent.vue";
 import WhyComponent from "@components/whyComponent.vue";
 import ReviewsComponent from "@components/reviewsComponent.vue";
+import ContactComponent from "@components/contactComponent.vue";
 </script>
 
 <template>
@@ -28,6 +29,7 @@ import ReviewsComponent from "@components/reviewsComponent.vue";
     <ServeComponent />
     <WhyComponent />
     <ReviewsComponent />
+    <ContactComponent />
 
     <footer-component />
 </template>

@@ -32,6 +32,7 @@ h1 {
 h2 {
     font-size: 2.625rem;
     line-height: 3.885rem;
+    letter-spacing: 0.02rem;
 }
 
 h3 {
@@ -42,6 +43,7 @@ p {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.69rem;
+    letter-spacing: 0.0875rem;
     color: var(--black);
 }
 

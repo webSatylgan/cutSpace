@@ -20,4 +20,24 @@
     .companies img {
         max-width: 230px;
     }
+
+    /* media --------------- */
+    @media (max-width: 900px) {
+        .companies img {
+            max-width: 150px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .companies {
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+
+        .companies img {
+            max-width: 30%;
+            width: 100%;
+        }
+    }
 </style>

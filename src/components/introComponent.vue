@@ -58,7 +58,7 @@
         align-items: center;
         gap: 20px;
 
-        max-width: 200px;
+        max-width: 100%;
         margin-left: 28px;
 
         font-size: 16px;
@@ -84,5 +84,34 @@
         right: 0;
 
         z-index: -1;
+    }
+
+    /* media ----------------- */
+    @media (max-width: 1000px) {
+        .intro > img {
+            max-width: 45%;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .intro {
+            display: flex;
+            flex-direction: column-reverse;
+            margin-top: 0;
+        }
+        
+        .intro__content {
+            text-align: center;
+        }
+
+        .intro__content > * {
+            margin: 25px auto 0;
+        }
+
+        .intro > img {
+            position: static;
+            max-width: 65%;
+        }
+        
     }
 </style>

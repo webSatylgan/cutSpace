@@ -46,7 +46,7 @@
                         <p>Lyon</p>
                     </div>
                 </div>
-                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M40 40L39.97 0C18.0382 0.0162937 0 18.0679 0 40C0 61.9434 18.0566 80 40 80C61.9434 80 80 61.9434 80 40H40Z" fill="#58BEBF" />
                 </svg>
             </div>
@@ -72,9 +72,12 @@
     }
 
     .reviews__container > svg {
+        width: 80px;
+        height: 80px;
         position: absolute;
         right: -40px;
         top: -40px;
+        max-width: 100%;
     }
 
     .reviews__item {
@@ -128,6 +131,40 @@
     .reviews__item:hover > svg {
         top: 135px;
         opacity: 1;
+    }
+
+    /* media -------------- */
+    @media (max-width: 1200px) {
+        .reviews {
+            max-width: 90%;
+            margin: 170px auto 0;
+        }
+    }
+
+    @media (max-width: 900px) {
+
+        .reviews__title {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .reviews__container {
+            flex-direction: column;
+            gap: 50px;
+            max-width: 350px;
+            margin: 60px auto 0;
+        }
+
+    }
+
+    @media (max-width: 500px) {
+        .reviews__container > svg {
+            width: 50px;
+            height: 50px;
+
+            right: -25px;
+            top: -25px;
+        }
     }
 
 </style>

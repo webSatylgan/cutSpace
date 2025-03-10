@@ -53,6 +53,7 @@
         align-items: start;
         gap: 50px;
         margin-top: 100px;
+        padding-bottom: 80px;
     }
 
     .footer__main-item {
@@ -103,5 +104,36 @@
 
     .footer__item p:not(:first-child) {
         margin-top: 13px;
+    }
+    
+    /* media ------------------ */
+    @media (max-width: 900px) {
+        .footer {
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+        }
+
+        .footer__main-item {
+            max-width: 100%;
+        }
+
+        .footer__container {
+            max-width: 545px;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .footer__main-item > * {
+            margin: 30px auto 0;
+            text-align: center;
+        }
+        
+        .footer__container {
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+            text-align: center;
+        }
     }
 </style>

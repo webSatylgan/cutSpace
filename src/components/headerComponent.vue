@@ -36,4 +36,11 @@
         max-width: 600px;
         gap: 10px;
     }
+
+    /* media ------------------ */
+    @media (max-width: 768px) {
+        .header__nav {
+            display: none;
+        }
+    }
 </style>

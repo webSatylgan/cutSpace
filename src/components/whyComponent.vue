@@ -102,4 +102,31 @@
     .why__item:hover svg *:not(circle) {
         fill: #fff;
     }
+
+    /* media ------------------ */
+    @media (max-width: 1100px) {
+        .why__container {
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .why__item {
+            width: 35%;
+            max-width: none;
+        }
+    }
+    
+    @media (max-width: 600px) {
+        .why__container {
+            gap: 50px;
+        }
+
+        .why__item {
+            width: 65%;
+        }
+
+        .why__item p {
+            margin-top: 20px;
+        }
+    }
 </style>

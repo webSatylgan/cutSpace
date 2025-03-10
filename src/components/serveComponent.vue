@@ -115,4 +115,16 @@
     .serve__card:hover svg {
         fill: #fff;
     }
+    
+    /* media ----------------- */
+    @media (max-width: 900px) {
+
+        .serve::before {
+            top: -40px;
+        }
+
+        .serve__container {
+            flex-direction: column;
+        }
+    }
 </style>

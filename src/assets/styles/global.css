@@ -62,7 +62,7 @@ a:hover {
 button {
     padding: 18px 40px;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1rem;
 
     border-radius: 29px;
 
@@ -101,4 +101,25 @@ input {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+}
+
+/* media ---------------- */
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+
+    button {
+        padding: 18px 25px;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
 }

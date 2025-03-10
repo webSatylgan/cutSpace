@@ -1,1 +1,0 @@
-simple vute-vite landing page template for fast start
